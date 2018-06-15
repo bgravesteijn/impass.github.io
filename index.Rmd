@@ -1,0 +1,87 @@
+---
+title: "Imputation assignment"
+author: 
+  - "CENTER-TBI Rotterdam, 09-2018"
+  - <h6>Written by B.Y. Gravesteijn<h6>
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    logo: logo.png
+    source_code: embed
+    css: styles.css
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Explore data
+
+> The first step in imputation is exploring the dataset. This essential step is necessary to specify the imputation method correctly. 
+
+
+### Describing the data {.tabset .tabset-fade .tabset-pills}
+
+<ol>First, we look how the data is distributed, and how many missing data per variable is present. This is to get familiar with the data, see if your data is coded correctly and whether no odd values are present. 
+  <li> Plot for the dataset 
+  </li><br>
+</ol>
+
+```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
+setwd("C://Users/Gebruiker/Dropbox/Workshop CENTER-TBI/ImpAss/")
+```
+
+#### Hints
+
+```{r , echo=TRUE, eval=FALSE}
+#For the first time, install the packages you need:
+pckgs<-c("devtools", "VIM", "mice", "miceadds")
+install.packages(pckgs)
+devtools::install_github("bgravesteijn/bgravesteijn")
+
+
+```
+
+#### Code
+
+```{r , echo=TRUE, eval=FALSE}
+#For the first time, install the packages you need:
+pckgs<-c("devtools", "VIM", "mice", "miceadds")
+install.packages(pckgs)
+devtools::install_github("bgravesteijn/bgravesteijn")
+
+```
+
+#### Output
+
+```{r pressure, echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
+
+```
+#### Discussion
+
+>   
+
+## Impute data
+
+> 
+
+## Diagnostics of imputed datasets
+
+>
+
+## Fitting your model of interest
+
+>
+
+## Longitudinal data
+
+>
+
+## Multilevel data
+
+>
+
+## Fitting more complicated models
+
+>

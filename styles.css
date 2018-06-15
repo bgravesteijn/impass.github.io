@@ -1,0 +1,95 @@
+h1 {
+  color:white;
+  background-color:#008EB6;
+}
+
+h2 {
+  color:white;
+  background-color:#00765B;
+}
+
+h3 {
+  color:white;
+  background-color:#009F3E;
+}
+
+h4 {
+  color:white;
+  background-color:#00A769;
+}
+
+h6{
+  color:#008EB6;
+  background-color:#008EB6;
+}
+
+h6:hover {
+  color:white;
+  background-color:#008EB6;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+.rcode {
+  color:white;
+  background-color:#002327;
+}
+
+.navbar-inverse {
+  background-color: #008EB6;
+  border-color: #002327;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: white;
+  background-color: #00A769;
+}
+
+.navbar-inverse .navbar-text {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: white;
+  background-color: #00A769;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: white;
+  background-color: #00A769;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: white;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #00A769;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #00A769;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  background-color: #00A769;
+  color: white;
+}
